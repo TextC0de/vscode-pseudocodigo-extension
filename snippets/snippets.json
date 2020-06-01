@@ -1,0 +1,98 @@
+{
+    "algoritmo-structure": {
+      "prefix": "Algoritmo",
+      "body": [
+        "Algoritmo ${1:nombre}",
+        "$0",
+        "Const",
+        "$0",
+        "Var",
+        "$0",
+        "Inicio",
+        "$0",
+        "Fin"
+      ],
+      "description": "Estructura general de un algoritmo."
+    },
+    "subalgoritmo-structure": {
+      "prefix": "Subalgoritmo",
+      "body": [
+        "SubAlgoritmo ${1:nombre}(${2:parametros})",
+        "$0",
+        "Const",
+        "$0",
+        "Var",
+        "$0",
+        "Inicio",
+        "$0",
+        "Fin"
+      ],
+      "description": "Estructura general de un Subalgoritmo."
+    },
+    "si-block": {
+      "prefix": "Si",
+      "body": [
+        "Si (${1:condicion}) Entonces",
+        "$0",
+        "FinSi"
+      ],
+      "description": "Bloque Sí"
+    },
+    "sino-block": {
+      "prefix": "Sisino",
+      "body": [
+        "Si (${1:condicion}) Entonces",
+        "$0",
+        "Sino",
+        "$0",
+        "FinSi"
+      ],
+      "description": "Bloque Si con Sino"
+    },
+    "segun-block": {
+      "prefix": "Según",
+      "body": [
+        "Según (${1:condicion}) Hacer",
+        "$0",
+        "FinSegún"
+      ],
+      "description": "Bloque Según"
+    },
+    "mientras-block": {
+      "prefix": "Mientras",
+      "body": [
+        "Mientras (${1:condicion}) hacer",
+        "$0",
+        "FinMientras"
+      ],
+      "description": "Bloque mientras"
+    },
+    "desde-block": {
+      "prefix": "Desde",
+      "body": [
+        "Desde ${1:variable} <- ${2:valor} ${3:comparacion} ${4:variable} con paso ${5:numero} hacer",
+        "$0",
+        "FinMientras"
+      ],
+      "description": "Bloque mientras"
+    },
+    "repetir-block": {
+      "prefix": "Repetir",
+      "body": [
+        "Repetir",
+        "$0",
+        "Hasta (${1:condicion})"
+      ],
+      "description": "Bloque repetir"
+    },
+    "mostrar-function": {
+      "prefix": "Mostrar",
+      "body": "Mostrar(${1:mensaje})",
+      "description": "Función para mostrar un mensaje"
+    },
+    "ingresar-function": {
+      "prefix": "Ingresar",
+      "body": "Ingresar(${1:variable})",
+      "description": "Función Ingresar"
+    }
+}

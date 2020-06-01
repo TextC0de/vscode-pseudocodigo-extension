@@ -1,0 +1,43 @@
+{
+    "name": "pseudocodigo-highlighting",
+    "displayName": "Extension para Pseudocodigo",
+    "description": "Una extension para escribir mas comodamente pseudocodigo",
+    "version": "1.0.0",
+    "publisher": "TextC0de",
+	"license": "SEE LICENSE IN LICENSE.txt",
+    "author": {
+        "name": "Ignacio Guzmán"
+    },
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "repository": {
+        "url": "https://github.com/TextC0de/vscode-pseudocodigo-extension"
+    },
+    "keywords": [
+        "Pseudocodigo", "Pseudocódigo", "Programación"
+    ],
+    "icon": "images/icon.png",
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pscd",
+            "aliases": ["Pseudocodigo (UNPSJB Version)", "pscd"],
+            "extensions": [".pscd"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pscd",
+            "scopeName": "source.pscd",
+            "path": "./syntaxes/pscd.tmLanguage.json"
+        }],
+        "snippets": [
+            {
+              "language": "pscd",
+              "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
