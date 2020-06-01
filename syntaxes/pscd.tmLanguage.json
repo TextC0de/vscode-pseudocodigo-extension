@@ -150,7 +150,7 @@
       "patterns": [
         {
           "name": "support.class.builtin.pscd",
-          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Caracter|caracter|Carácter|carácter|Cadena|cadena|Real|real|Entero|entero|Logico|logico|Booleano|booleano)\\b"
+          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Caracter|caracter|Carácter|carácter|Cadena|cadena|Real|real|Entero|entero|Logico|Lógico|logico|lógico|Booleano|booleano)\\b"
         }
       ]
     },
