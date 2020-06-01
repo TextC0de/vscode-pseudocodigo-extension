@@ -14,13 +14,13 @@ Puedes guardar los archivos con extensión **.pscd** y Visual Studio activará a
 La extensión viene acompañada de algunos snippets que pueden ayudarte a escribir código más fácil y rápidamente. A continuación encontrarás una tabla que contiene las palabras clave de los snippets y su contenido.
 | Snippet | Contenido |
 | ------- | ------- |
-| `Algoritmo` | Estructura general de un Algoritmo |
-| `Subalgoritmo` | Estructura general de un Subalgoritmo |
-| `Si` | Bloque Si |
-| `Sisino` | Bloque Si con sino |
-| `Segun` | Bloque Según |
-| `Mientras` | Bloque Mientras |
-| `Desde` | Bloque Desde |
-| `Repetir` | Bloque Repetir |
-| `Mostrar` | Función Mostrar |
-| `Ingresar` | Función Ingresar |
+| `algoritmo` | Estructura general de un Algoritmo |
+| `subalgoritmo` | Estructura general de un Subalgoritmo |
+| `si` | Bloque Si |
+| `sisino` | Bloque Si con sino |
+| `segun` | Bloque Según |
+| `mientras` | Bloque Mientras |
+| `desde` | Bloque Desde |
+| `repetir` | Bloque Repetir |
+| `mostrar` | Función Mostrar |
+| `ingresar` | Función Ingresar |
