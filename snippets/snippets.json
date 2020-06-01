@@ -52,7 +52,7 @@
     "segun-block": {
       "prefix": "Segun",
       "body": [
-        "Según (${1:condicion}) Hacer",
+        "Según (${1:variable}) Hacer",
         "$0",
         "FinSegún"
       ],
