@@ -24,3 +24,4 @@ La extensión viene acompañada de algunos snippets que pueden ayudarte a escrib
 | `repetir` | Bloque Repetir |
 | `mostrar` | Función Mostrar |
 | `ingresar` | Función Ingresar |
+![](gif.gif)
