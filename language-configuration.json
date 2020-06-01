@@ -13,7 +13,6 @@
     ],
     // symbols that are auto closed when typing
     "autoClosingPairs": [
-        { "open": "Entonces", "close": "FinSi" },
         { "open": "{", "close": "}" },
         { "open": "[", "close": "]" },
         { "open": "(", "close": ")" },
