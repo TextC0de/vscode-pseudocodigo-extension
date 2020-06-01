@@ -8,7 +8,7 @@ La localización de esta carpeta dependerá de tu sistema operativo, normalmente
 - `Linux` $HOME/.vscode/extensions
 
 Una vez hayas hecho esto podrás seleccionar el lenguaje "Pseudocódigo (UNPSJB Version)" para resaltar tu código.
-Puedes guardar los archivos con extensión **.pscd** y Visual Studio activará automaticamente la extensión para este tipo de archivos.
+Puedes guardar los archivos con extensión **.pscd** y Visual Studio activará automáticamente la extensión para este tipo de archivos.
 
 ## Snippets
 La extensión viene acompañada de algunos snippets que pueden ayudarte a escribir código más fácil y rápidamente. A continuación encontrarás una tabla que contiene las palabras clave de los snippets y su contenido.
