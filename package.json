@@ -24,7 +24,7 @@
     "contributes": {
         "languages": [{
             "id": "pscd",
-            "aliases": ["Pseudocodigo (UNPSJB Version)", "pscd"],
+            "aliases": ["Pseudocódigo", "pscd"],
             "extensions": [".pscd"],
             "configuration": "./language-configuration.json"
         }],
