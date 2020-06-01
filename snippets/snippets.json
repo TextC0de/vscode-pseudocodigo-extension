@@ -50,7 +50,7 @@
       "description": "Bloque Si con Sino"
     },
     "segun-block": {
-      "prefix": "Según",
+      "prefix": "Segun",
       "body": [
         "Según (${1:condicion}) Hacer",
         "$0",
@@ -70,7 +70,7 @@
     "desde-block": {
       "prefix": "Desde",
       "body": [
-        "Desde ${1:variable} <- ${2:valor} ${3:comparacion} ${4:variable} con paso ${5:numero} hacer",
+        "Desde ${1:variable} <- ${2:valor} hasta ${4:variable} con paso 1 hacer",
         "$0",
         "FinMientras"
       ],
