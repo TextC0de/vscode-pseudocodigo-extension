@@ -84,7 +84,7 @@
       "patterns": [
         {
           "name": "keyword.operator.logical.pscd",
-          "match": "!(?!=)"
+          "match": "(\\s++[oOyY]\\s++|NO|No|no)"
         },
         {
           "name": "keyword.operator.relational.pscd",
@@ -100,7 +100,7 @@
         },
         {
           "name": "keyword.operator.assignment.pscd",
-          "match": "(<-)"
+          "match": "(<-|←)"
         }
       ]
     },
@@ -134,7 +134,7 @@
       "patterns": [
         {
           "name": "keyword.pscd",
-          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Algoritmo|Finalgoritmo|FinAlgoritmo|SubAlgoritmo|Subalgoritmo|FinSubAlgoritmo|FinSubalgoritmo|Inicio|Fin|Const|Var)\\b"
+          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Algoritmo|ALGORITMO|SubAlgoritmo|Subalgoritmo|SUBALGORITMO|INICIO|FIN|Const|CONST|Var|VAR)\\b"
         }
       ]
     },
@@ -142,7 +142,7 @@
       "patterns": [
         {
           "name": "keyword.control.conditional.pscd",
-          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Si|Sino|SiNo|Entonces|entonces|FinSi|Desde|con\\spaso|Con\\sPaso|Con\\spaso|con\\sPaso|Hacer|hacer|FinDesde|Repetir|Hasta|hasta|Mientras|FinMientras|Según|Segun|FinSegún|FinSegun)\\b"
+          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Si|Sino|SiNo|Entonces|entonces|FinSi|Desde|con\\spaso|Con\\sPaso|Con\\spaso|con\\sPaso|Hacer|hacer|Fin\\sDesde|Repetir|Hasta|hasta|Mientras|Fin\\sMientras|Según|Segun|Fin\\sSegún|Fin\\sSegun)\\b"
         }
       ]
     },
@@ -150,7 +150,7 @@
       "patterns": [
         {
           "name": "support.class.builtin.pscd",
-          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Caracter|caracter|Real|real|Entero|entero)\\b"
+          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Caracter|caracter|Carácter|carácter|Cadena|cadena|Real|real|Entero|entero|Logico|logico|Booleano|booleano)\\b"
         }
       ]
     },
@@ -166,7 +166,7 @@
       "patterns": [
         {
           "name": "variable.other.pscd",
-          "match": "(\\b[A-Za-z][a-zA-Z0-9_]+\\b)(?=:|\\s++:|\\s++,|,|<|\\s++<|>|\\s++>|=|\\s++=|o|\\s++o|y|\\s++y|-|\\s++-|\\+|\\s++\\+|\\*|\\s++\\*|div|\\s++div|mod|\\s++mod|\\)|\\s++\\)|^\\(|^\\s++\\()"
+          "match": "(\\b[A-Za-z][a-zA-Z0-9_]+\\b)(?=\\s*[:,<>=oOyY\\-+*)]|\\s*div|\\s*mod|\\s*NO|\\s*No|\\s*no)"
         } 
       ]
     },
@@ -174,7 +174,7 @@
       "patterns": [
         {
           "name": "variable.other.pscd",
-          "match": "((?<=\\+|\\*|\\s-|\\\/|\\sdiv\\s|\\smod\\s|\\sHasta\\s|\\shasta\\s|\\<-\\s)\\s*\\w++)"
+          "match": "((?<=\\+|\\*|\\s-|\\\/|\\sdiv\\s|\\smod\\s|\\sHasta\\s|\\shasta\\s|\\<-\\s|\\←\\s)\\s*\\w++)"
         } 
       ]
     },
