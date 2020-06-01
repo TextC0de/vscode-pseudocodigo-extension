@@ -1,10 +1,10 @@
 {
     "name": "pseudocodigo-highlighting",
-    "displayName": "Extension para Pseudocodigo",
-    "description": "Una extension para escribir mas comodamente pseudocodigo",
+    "displayName": "Extensión para Pseudocódigo",
+    "description": "Una extensión para escribir Pseudocódigo de forma más cómoda",
     "version": "1.0.0",
     "publisher": "TextC0de",
-	"license": "SEE LICENSE IN LICENSE.txt",
+	"license": "SEE LICENSE IN LICENSE",
     "author": {
         "name": "Ignacio Guzmán"
     },
