@@ -43,6 +43,9 @@
         },
         {
           "include": "#variables-after-aritmetic-operator"
+        },
+        {
+          "include": "#variables-single-char"
         }
       ]
     },
@@ -139,7 +142,7 @@
       "patterns": [
         {
           "name": "keyword.control.conditional.pscd",
-          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Si|Sino|SiNo|Entonces|entonces|FinSi|Desde|Hacer|hacer|FinDesde|Repetir|Hasta|Mientras|FinMientras|Según|Segun|FinSegún|FinSegun)\\b"
+          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Si|Sino|SiNo|Entonces|entonces|FinSi|Desde|con\\spaso|Con\\sPaso|Con\\spaso|con\\sPaso|Hacer|hacer|FinDesde|Repetir|Hasta|hasta|Mientras|FinMientras|Según|Segun|FinSegún|FinSegun)\\b"
         }
       ]
     },
@@ -147,7 +150,7 @@
       "patterns": [
         {
           "name": "support.class.builtin.pscd",
-          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Caracter|caracter|Real|real|Entero|entero|Lógico|lógico|Logico|lo|Repetir|Hasta|Mientras|FinMientras|Según|Segun|FinSegún|FinSegun)\\b"
+          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Caracter|caracter|Real|real|Entero|entero)\\b"
         }
       ]
     },
@@ -171,8 +174,16 @@
       "patterns": [
         {
           "name": "variable.other.pscd",
-          "match": "((?<=\\+|\\*|\\s-|\\\/|\\sdiv\\s|\\smod\\s)\\s*\\w*)"
+          "match": "((?<=\\+|\\*|\\s-|\\\/|\\sdiv\\s|\\smod\\s|\\sHasta\\s|\\shasta\\s|\\<-\\s)\\s*\\w++)"
         } 
+      ]
+    },
+    "variables-single-char": {
+      "patterns": [
+        {
+          "name": "variable.other.pscd",
+          "match": "([A-Za-z](?=(,|\\s*=|\\s*\\*|\\s*\\+|\\s*\\\/|\\s++div\\s++|\\s++mod\\s++|\\s*<|\\s*>|\\s*=|\\s*\\))))"
+        }
       ]
     }
   }
