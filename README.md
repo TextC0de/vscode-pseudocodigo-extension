@@ -12,16 +12,55 @@ Puedes guardar los archivos con extensión **.pscd** y Visual Studio activará a
 
 ## Snippets
 La extensión viene acompañada de algunos snippets que pueden ayudarte a escribir código más fácil y rápidamente. A continuación encontrarás una tabla que contiene las palabras clave de los snippets y su contenido.
-| Snippet | Contenido |
-| ------- | ------- |
-| `algoritmo` | Estructura general de un Algoritmo |
-| `subalgoritmo` | Estructura general de un Subalgoritmo |
-| `si` | Bloque Si |
-| `sisino` | Bloque Si con sino |
-| `segun` | Bloque Según |
-| `mientras` | Bloque Mientras |
-| `desde` | Bloque Desde |
-| `repetir` | Bloque Repetir |
-| `mostrar` | Función Mostrar |
-| `ingresar` | Función Ingresar |
+<table>
+    <thead>
+      <tr>
+        <th>Snippet</th>
+        <th>Contenido</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>algoritmo</code></td>
+            <td>Estructura general de un Algoritmo</td>
+        </tr>
+        <tr>
+            <td><code>subalgoritmo</code></td>
+            <td>Estructura general de un Subalgoritmo</td>
+        </tr>
+        <tr>
+            <td><code>si</code></td>
+            <td>Bloque Si</td>
+        </tr>
+        <tr>
+            <td><code>sisino</code></td>
+            <td>Bloque Si con sino</td>
+        </tr>
+        <tr>
+            <td><code>segun</code></td>
+            <td>Iterador Según</td>
+        </tr>
+        <tr>
+            <td><code>mientras</code></td>
+            <td>Iterador Mientras</td>
+        </tr>
+        <tr>
+            <td><code>desde</code></td>
+            <td>Iterador Desde</td>
+        </tr>
+        <tr>
+            <td><code>repetir</code></td>
+            <td>Bloque Repetir</td>
+        </tr>
+        <tr>
+            <td><code>mostrar</code></td>
+            <td>Función Mostrar</td>
+        </tr>
+        <tr>
+            <td><code>ingresar</code></td>
+            <td>Función Ingresar</td>
+        </tr>
+    </tbody>
+  </table>
+
 ![](snippets.gif)
