@@ -50,7 +50,7 @@ La extensión viene acompañada de algunos snippets que pueden ayudarte a escrib
         </tr>
         <tr>
             <td><code>repetir</code></td>
-            <td>Bloque Repetir</td>
+            <td>Iterador Repetir</td>
         </tr>
         <tr>
             <td><code>mostrar</code></td>
