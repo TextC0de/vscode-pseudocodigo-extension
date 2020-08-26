@@ -1,6 +1,6 @@
 {
   "name": "Pseudocodigo",
-  "scopeName": "source.pscd",
+  "scopeName": "source.pseudo",
   "foldingStartMarker": "(\\{|\\()",
   "foldingEndMarker": "(\\}|\\))",
   "fileTypes": [
