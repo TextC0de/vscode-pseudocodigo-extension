@@ -23,19 +23,19 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "pseudo-unpsjb",
-            "aliases": ["Pseudocódigo", "pseudo"],
-            "extensions": [".pseudo"],
+            "id": "pscd",
+            "aliases": ["Pseudocódigo", "pscd"],
+            "extensions": [".pscd"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "pseudo",
-            "scopeName": "source.pseudo",
+            "language": "pscd",
+            "scopeName": "source.pscd",
             "path": "./syntaxes/pscd.tmLanguage.json"
         }],
         "snippets": [
             {
-              "language": "pseudo",
+              "language": "pscd",
               "path": "./snippets/snippets.json"
             }
         ]
