@@ -175,7 +175,7 @@
       "patterns": [
         {
           "name": "keyword.pscd",
-          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\\/)(Algoritmo|ALGORITMO|Sub[Aa]lgoritmo|SUBALGORITMO|INICIO|Inicio|FIN|Const|CONST|Var|VAR|[Tt]ipos|Fin(?!\\s([Dd]esde|[Hh]asta|[Mm]ientras|[Ss]eg[u\u00FA]n)))\\b"
+          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\\/)(Algoritmo|ALGORITMO|Sub[Aa]lgoritmo|SUBALGORITMO|[Pp]rocedimiento|[Ff]unci[oó]n|INICIO|Inicio|FIN|Const|CONST|Var|VAR|[Tt]ipos|Fin(?!\\s([Dd]esde|[Hh]asta|[Mm]ientras|[Ss]eg[u\u00FA]n)))\\b"
         }
       ]
     },
