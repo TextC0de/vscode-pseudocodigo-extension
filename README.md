@@ -29,6 +29,14 @@ La extensión viene acompañada de algunos snippets que pueden ayudarte a escrib
             <td>Estructura general de un Subalgoritmo</td>
         </tr>
         <tr>
+            <td><code>procedimiento</code></td>
+            <td>Estructura general de un Procedimiento</td>
+        </tr>
+        <tr>
+            <td><code>funcion</code></td>
+            <td>Estructura general de una Función</td>
+        </tr>
+        <tr>
             <td><code>si</code></td>
             <td>Bloque Si</td>
         </tr>
