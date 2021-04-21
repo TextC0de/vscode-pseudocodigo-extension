@@ -1,9 +1,9 @@
 # Resaltado de sintaxis para Pseudocódigo
 ## Instalación
-Debido a que la utilidad de esta extensión es muy acotada he decidido no subirla oficialmente al repositorio de extensiones de Visual Studio Code. De todas formas puedes disfrutarla descargando este proyecto y moviendo la carpeta vscode-pseudocodigo-syntax-highlighting en el directorio en el que Visual Studio guarda las extensiones descargadas, es decir .vscode/extensions.
+Debido a que la utilidad de esta extensión es muy acotada he decidido no subirla oficialmente al repositorio de extensiones de Visual Studio Code. De todas formas puedes disfrutarla (descargando este proyecto)[https://github.com/TextC0de/vscode-pseudocodigo-extension/archive/refs/heads/master.zip], descomprimiendo el rar  y moviendo la carpeta descomprimida al el directorio en el que Visual Studio guarda las extensiones descargadas.
 La localización de esta carpeta dependerá de tu sistema operativo, normalmente la podrás encontrar bajo las siguientes rutas:
 
-- `Windows` %USERPROFILE%\.vscode\extensions
+- `Windows` %USERPROFILE%/.vscode/extensions
 - `Mac` $HOME/.vscode/extensions
 - `Linux` $HOME/.vscode/extensions
 
