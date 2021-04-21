@@ -1,6 +1,6 @@
 # Resaltado de sintaxis para Pseudocódigo
 ## Instalación
-Debido a que la utilidad de esta extensión es muy acotada he decidido no subirla oficialmente al repositorio de extensiones de Visual Studio Code. De todas formas puedes disfrutarla (descargando este proyecto)[https://github.com/TextC0de/vscode-pseudocodigo-extension/archive/refs/heads/master.zip], descomprimiendo el rar  y moviendo la carpeta descomprimida al el directorio en el que Visual Studio guarda las extensiones descargadas.
+Debido a que la utilidad de esta extensión es muy acotada he decidido no subirla oficialmente al repositorio de extensiones de Visual Studio Code. De todas formas puedes disfrutarla [descargando este proyecto](https://github.com/TextC0de/vscode-pseudocodigo-extension/archive/refs/heads/master.zip), descomprimiendo el rar  y moviendo la carpeta descomprimida al el directorio en el que Visual Studio guarda las extensiones descargadas.
 La localización de esta carpeta dependerá de tu sistema operativo, normalmente la podrás encontrar bajo las siguientes rutas:
 
 - `Windows` %USERPROFILE%/.vscode/extensions
