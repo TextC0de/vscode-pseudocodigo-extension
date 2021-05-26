@@ -125,7 +125,7 @@
       "patterns": [
         {
           "name": "keyword.operator.logical.pscd",
-          "match": "(\\s++[oOyY]\\s++|\\s++[Nn]o\\s++)"
+          "match": "(?i)(\\s++[oOyY]\\s++|\\s++[Nn]o\\s++)"
         },
         {
           "name": "keyword.operator.relational.pscd",
@@ -141,7 +141,7 @@
         },
         {
           "name": "keyword.operator.assignment.pscd",
-          "match": "(<-|←)"
+          "match": "(<-|←|\\s*=>\\s*)"
         }
       ]
     },
@@ -175,7 +175,7 @@
       "patterns": [
         {
           "name": "keyword.pscd",
-          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\\/)(Algoritmo|ALGORITMO|Sub[Aa]lgoritmo|SUBALGORITMO|[Pp]rocedimiento|[Ff]unci[oó]n|INICIO|Inicio|FIN|Const|CONST|Var|VAR|[Tt]ipos|Fin(?!\\s([Dd]esde|[Hh]asta|[Mm]ientras|[Ss]eg[u\u00FA]n)))\\b"
+          "match": "(?i)\\b(?<=^|[\\s\\{\\}\\;\\:]|\\*\\\/)(Algoritmo|Subalgoritmo|Procedimiento|Funci[oó]n|Inicio|Excepci[oó]n|Excepci[oó]nes|lanzar|cuando|cdo|(\\(|,|;)\\s*E\\s\\s*|(\\(|,|;)\\s*E\\/S\\s\\s*|Fin\\s*\\n|Const|Var|Tipos|Fin(?!\\s(Si|Desde|Hasta|Mientras|seg[u\u00FA]n)))\\b"
         }
       ]
     },
@@ -183,7 +183,7 @@
       "patterns": [
         {
           "name": "keyword.control.conditional.pscd",
-          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\\/)(Si|Si[Nn]o|[Ee]ntonces|Desde|[Cc]on\\s*[Pp]aso|[Hh]acer|Repetir|[Hh]asta|Mientras|Seg[u\u00FA]n|Fin(Si|\\s*(Desde|Mientras|Repetir|[H]|Seg[u\u00FA]n)))\\b"
+          "match": "(?i)\\b(?<=^|[\\s\\{\\}\\;\\:]|\\*\\\/)(Si|Si\\s*No|Entonces|Desde|Con\\s*Paso|Hacer|Repetir|Hasta|Mientras|Seg[u\u00FA]n|Fin(\\s*(Si|Desde|Mientras|Repetir|Seg[u\u00FA]n)))\\b"
         }
       ]
     },
@@ -191,7 +191,7 @@
       "patterns": [
         {
           "name": "support.class.builtin.pscd",
-          "match": "(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)([Cc]ar[aá]cter|[Cc]adena|[Rr]eal|[Ee]ntero|[Ll][óo]gico|[Bb]ooleano)\\b"
+          "match": "(?i)\\b(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Car[aá]cter|Cadena|Real|Entero|L[óo]gico|Booleano|tipo(Clave|Grafo|Arbol|Lista|Cola|Peso|Registro))\\b"
         }
       ]
     },
@@ -207,7 +207,7 @@
       "patterns": [
         {
           "name": "variable.other.pscd",
-          "match": "(\\b[A-Za-z][a-zA-Z0-9_]+\\b)(?=\\s*[:,<>=oOyY\\-+*)]|\\[Nn][Oo]\\s++)"
+          "match": "(?i)(\\b[A-Za-z][a-zA-Z0-9_]+\\b)(?=\\s*[:,<>=oOyY\\-+*)]|\\No\\s++)"
         } 
       ]
     },
@@ -215,16 +215,8 @@
       "patterns": [
         {
           "name": "variable.other.pscd",
-          "match": "((?<=([+*\\-/]|<-|←)|\\s(div|mod|[Hh]asta)\\s)\\s*\\w++)"
+          "match": "((,|\\()\\s*[a-zA-Z0-9_]*\\.*[a-zA-Z0-9_]*\\s*(,|\\)))"
         } 
-      ]
-    },
-    "variables-single-char": {
-      "patterns": [
-        {
-          "name": "variable.other.pscd",
-          "match": "([A-Za-z](?=(,|\\s*[=*+/<>)]|\\s++(div|mod)\\s++)))"
-        }
       ]
     }
   }
