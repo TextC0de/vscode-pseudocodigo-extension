@@ -141,7 +141,7 @@
         },
         {
           "name": "keyword.operator.assignment.pscd",
-          "match": "(<-|←|\\s*=>\\s*)"
+          "match": "(<-|←|\\s*=>\\s*|\\:\\=|,)"
         }
       ]
     },
@@ -175,7 +175,7 @@
       "patterns": [
         {
           "name": "keyword.pscd",
-          "match": "(?i)\\b(?<=^|[\\s\\{\\}\\;\\:]|\\*\\\/)(Algoritmo|Subalgoritmo|Procedimiento|Funci[oó]n|Inicio|Excepci[oó]n|Excepci[oó]nes|lanzar|cuando|cdo|(\\(|,|;)\\s*E\\s\\s*|(\\(|,|;)\\s*E\\/S\\s\\s*|Fin\\s*\\n|Const|Var|Tipos|Fin(?!\\s(Si|Desde|Hasta|Mientras|seg[u\u00FA]n)))\\b"
+          "match": "(?i)\\b(?<=^|[\\s\\{\\}\\;\\:]|\\*\\\/)(Algoritmo|Subalgoritmo|Procedimiento|Funci[oó]n|Inicio|Excepci[oó]n|Excepci[oó]nes|lanzar|verdadero|falso|null|nada|cuando|registro|cdo|(\\(|,|;)\\s*E\\s\\s*|(\\(|,|;)\\s*E\\/S\\s\\s*|Fin\\s*\\n|Const|Var|Tipos|Fin(?!\\s(Si|Desde|Hasta|Mientras|seg[u\u00FA]n)))\\b"
         }
       ]
     },
@@ -183,7 +183,7 @@
       "patterns": [
         {
           "name": "keyword.control.conditional.pscd",
-          "match": "(?i)\\b(?<=^|[\\s\\{\\}\\;\\:]|\\*\\\/)(Si|Si\\s*No|Entonces|Desde|Con\\s*Paso|Hacer|Repetir|Hasta|Mientras|Seg[u\u00FA]n|Fin(\\s*(Si|Desde|Mientras|Repetir|Seg[u\u00FA]n)))\\b"
+          "match": "(?i)\\b(?<=^|[\\s\\{\\}\\;\\:]|\\*\\\/)(Si|Si\\s*No|Entonces|Desde|Con\\s*Paso|Hacer|Repetir|retornar|retorna|Hasta|Mientras|Seg[u\u00FA]n|Fin(\\s*(Si|Desde|Mientras|Repetir|Seg[u\u00FA]n)))\\b"
         }
       ]
     },
@@ -191,7 +191,7 @@
       "patterns": [
         {
           "name": "support.class.builtin.pscd",
-          "match": "(?i)\\b(?<=^|[\\s\\{\\}\\;\\:]|\\*\\/)(Car[aá]cter|Cadena|Real|Entero|L[óo]gico|Booleano|tipo(Clave|Grafo|Arbol|Lista|Cola|Peso|Registro))\\b"
+          "match": "(?i):\\s*(Car[a\u00E1]cter|Cadena|Real|Entero|L[\u00F3o]gico|Booleano|arreglo|tipo\\w*)"
         }
       ]
     },
@@ -207,7 +207,7 @@
       "patterns": [
         {
           "name": "variable.other.pscd",
-          "match": "(?i)(\\b[A-Za-z][a-zA-Z0-9_]+\\b)(?=\\s*[:,<>=oOyY\\-+*)]|\\No\\s++)"
+          "match": "(?i)(\\b[A-Za-z][a-zA-Z0-9_]+\\b)(?=\\s*[:,<>=\\-+*)]|\\No\\s++|\\s\\s*[oOyY]|\\[)"
         } 
       ]
     },
